@@ -1,12 +1,78 @@
-# React + Vite
+# 🛒 Simple React Shopping Cart App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a beginner-friendly shopping cart web application built with **React**, **Redux Toolkit**, and **Tailwind CSS**. It allows users to view products, add them to a cart, adjust quantities, and view totals — all with a smooth UI and component-based structure.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Browse product listings
+- View product details by URL slug
+- Add items to cart
+- Increase/decrease item quantity
+- Remove item from cart automatically if quantity = 0
+- Toggle cart panel with animation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧠 What I Learned
+
+This project helped in understanding:
+
+### ✅ React Hooks
+- `useState` – manage component-level state
+- `useEffect` – handle side effects like filtering product detail
+- `useDispatch` – dispatch actions to Redux store
+- `useSelector` – select state data from the Redux store
+- `useParams` – get dynamic URL values using React Router
+
+### ✅ Redux Toolkit
+- Creating a **slice** (`createSlice`)
+- Managing global state for cart items and toggle status
+- Using **actions** (`addToCart`, `changeQuantity`, `toggleStatusTab`)
+- Reading and updating the store using Redux hooks
+
+---
+
+## ⚙️ Installation & Setup
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/react-shopping-cart.git
+   cd react-shopping-cart
+   ```
+
+2. **Install dependencies**
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the development server**
+
+   ```bash
+   npm run dev
+   ```
+
+   Or if you're using plain React:
+
+   ```bash
+   npm start
+   ```
+
+4. **Open in browser**
+
+   ```
+   http://localhost:5173/   // (or http://localhost:3000/)
+   ```
+
+---
+
+## 📁 Tech Stack
+
+* React
+* React Router
+* Redux Toolkit
+* Tailwind CSS
+* Vite (or Create React App depending on setup)
+
