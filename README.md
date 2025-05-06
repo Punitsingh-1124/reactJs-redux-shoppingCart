@@ -32,6 +32,20 @@ This project helped in understanding:
 - Using **actions** (`addToCart`, `changeQuantity`, `toggleStatusTab`)
 - Reading and updating the store using Redux hooks
 
+
+
+## 🖼️ Screenshots
+
+### 🏠 Home Page
+![image](https://github.com/user-attachments/assets/eaf9c510-f692-403e-a372-69c4dd0ba9bf)
+
+### 🛒 Details Panel
+![image](https://github.com/user-attachments/assets/22f3cb73-6ab3-450f-9897-693dadfb6a13)
+
+### 🛒 Cart Panel
+![image](https://github.com/user-attachments/assets/9692f455-4f93-4aaa-a560-43acc8ae143a)
+
+
 ---
 
 ## ⚙️ Installation & Setup
